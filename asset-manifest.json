@@ -1,0 +1,10 @@
+{
+  "files": {
+    "main.js": "/speechtotextconverter/static/js/main.28fb6716.js",
+    "index.html": "/speechtotextconverter/index.html",
+    "main.28fb6716.js.map": "/speechtotextconverter/static/js/main.28fb6716.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.28fb6716.js"
+  ]
+}
