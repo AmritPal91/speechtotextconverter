@@ -15,10 +15,9 @@ body {
 }
 
 .container {
-    padding: 15px;
+    /* padding: 15px;
     height: 20rem;
-    width: 35rem;
-    background: white;
+    width: 35rem; */
     border-radius: 10px;
     box-shadow: black;
 }
@@ -34,20 +33,21 @@ body {
 .container p {
     border: 1px solid black;
     border-radius: 10px;
-    height: 68%;
+    color: #fff;
+    height: 16rem;
     padding: 5px;
     font-size: x-large;
     overflow: auto;
 }
 
 .container h1 {
-    padding: 0 0 10px;
-    color: rgb(168, 47, 149);
+    color: #fff;
+    margin-bottom: 8%;
 }
 
 div button {
     padding: 1.3%;
-    background: rgb(168, 47, 149);
+    background: rgb(184 97 171);
     color: white;
     border-radius: 8px;
 }
@@ -60,12 +60,8 @@ div button:hover {
 /* Mobile version */
 @media (max-width:450px) {
     .container {
-        padding: 15px;
-        height: 25rem;
-        width: 16rem;
-        background: white;
-        border-radius: 10px;
-        box-shadow: black;
+        height: 27rem;
+        width: 100%;
     }
 
     .container h1 {
@@ -88,7 +84,7 @@ div button:hover {
     }
 
     .container p {
-        height: 40%;
+        height: 49%;
         font-size: large;
     }
 }
