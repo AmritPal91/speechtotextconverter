@@ -10,14 +10,13 @@ body {
     text-align: center;
     place-items: center;
     height: 100dvh;
-    width: 100%;
     background: linear-gradient(rgb(171, 66, 171), lavender)
 }
 
 .container {
-    /* padding: 15px;
+    padding: 15px;
     height: 20rem;
-    width: 35rem; */
+    width: 35rem;
     border-radius: 10px;
     box-shadow: black;
 }
@@ -34,7 +33,7 @@ body {
     border: 1px solid black;
     border-radius: 10px;
     color: #fff;
-    height: 16rem;
+    height: 14rem;
     padding: 5px;
     font-size: x-large;
     overflow: auto;
@@ -42,7 +41,7 @@ body {
 
 .container h1 {
     color: #fff;
-    margin-bottom: 8%;
+    margin-bottom: 5%;
 }
 
 div button {
@@ -60,7 +59,7 @@ div button:hover {
 /* Mobile version */
 @media (max-width:450px) {
     .container {
-        height: 27rem;
+        height: 25rem;
         width: 100%;
     }
 
